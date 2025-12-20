@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modulo 1.1: A Filosofia do Resolvedor | Automacao 2026</title>
+  <title>Modulo 1.3: Custom GPTs e Projetos | Automacao 2026</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,6 +37,26 @@
 </head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 
+  <!-- Trilhas Bar -->
+  <div class="bg-dark-800 border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-center items-center gap-6 py-2">
+        <a href="index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/20 border-2 border-emerald-500 text-emerald-400 font-semibold text-sm transition-all">
+          <span>📚</span>
+          <span>Trilha 1</span>
+        </a>
+        <a href="../trilha2-implementacao/index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-dark-700 border-2 border-transparent text-neutral-400 hover:text-blue-400 hover:border-blue-500/50 font-medium text-sm transition-all">
+          <span>🔧</span>
+          <span>Trilha 2</span>
+        </a>
+        <a href="../trilha3-maestria/index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-dark-700 border-2 border-transparent text-neutral-400 hover:text-purple-400 hover:border-purple-500/50 font-medium text-sm transition-all">
+          <span>🚀</span>
+          <span>Trilha 3</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +67,7 @@
           </svg>
           <span>Voltar para Trilha</span>
         </a>
-        <span class="text-emerald-400 font-semibold">Modulo 1.1</span>
+        <span class="text-emerald-400 font-semibold">Modulo 1.3</span>
       </div>
     </div>
   </nav>
@@ -57,180 +77,324 @@
     <!-- Header -->
     <div class="text-center mb-12">
       <span class="inline-block px-4 py-2 bg-emerald-500/20 text-emerald-400 rounded-full text-sm font-semibold mb-4">
-        MODULO 1.1 - FUNDAMENTOS
+        MODULO 1.3 - FUNDAMENTOS
       </span>
-      <h1 class="text-4xl sm:text-5xl font-bold mb-4">🎯 A Filosofia do Resolvedor de Problemas</h1>
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Custom GPTs, Projetos e Gems</h1>
       <p class="text-xl text-neutral-400 max-w-2xl mx-auto">
-        Mude sua mentalidade de "construir agentes" para "resolver problemas de forma eficiente"
+        A base da piramide: assistentes conversacionais personalizados
       </p>
     </div>
+
+    <!-- Imagem Principal -->
+    <section class="mb-12">
+      <div class="rounded-2xl overflow-hidden border border-dark-600">
+        <img src="../assets/images/custom-gpt-exemplo.jpg" alt="Custom GPT - Exemplo de assistente conversacional" class="w-full h-auto">
+      </div>
+      <p class="text-center text-neutral-500 text-sm mt-3">Custom GPT: Um assistente que conhece sua empresa e responde quando voce pergunta</p>
+    </section>
 
     <!-- Stats -->
     <div class="grid grid-cols-3 gap-4 mb-12">
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">3</div>
-        <div class="text-xs text-neutral-400">Perguntas-chave</div>
+        <div class="text-2xl font-bold text-blue-400">100%</div>
+        <div class="text-xs text-neutral-400">Reativo</div>
       </div>
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">50%</div>
-        <div class="text-xs text-neutral-400">Regra de Ouro</div>
+        <div class="text-2xl font-bold text-blue-400">Baixo</div>
+        <div class="text-xs text-neutral-400">Custo</div>
       </div>
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">1</div>
-        <div class="text-xs text-neutral-400">Principio Central</div>
+        <div class="text-2xl font-bold text-blue-400">Humano</div>
+        <div class="text-xs text-neutral-400">No Loop</div>
       </div>
     </div>
 
-    <!-- Conteudo Principal -->
+    <!-- O que sao -->
     <section class="mb-12">
-      <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-2xl p-8 border border-emerald-500/30">
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-2xl p-8 border border-blue-500/30">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">💡</span>
+          <span class="text-4xl mr-4">🤖</span>
           <div>
-            <h2 class="text-2xl font-bold text-emerald-400">A Ideia Central</h2>
-            <p class="text-neutral-400">O erro mais comum na implementacao de IA</p>
+            <h2 class="text-2xl font-bold text-blue-400">O Que Sao?</h2>
+            <p class="text-neutral-400">Assistentes conversacionais pre-configurados</p>
           </div>
         </div>
 
         <p class="text-lg text-neutral-300 mb-6">
-          AI Agents estao sendo usados em <strong class="text-emerald-400">excesso</strong> e, muitas vezes, <strong class="text-red-400">nao sao a melhor solucao</strong>. O foco deve ser resolver problemas de forma eficiente, escolhendo o nivel certo de complexidade, e nao "construir agentes por construir".
+          Custom GPTs, Claude Projects e Gemini Gems sao <strong class="text-blue-400">assistentes de IA personalizados</strong> que voce configura com instrucoes especificas, base de conhecimento e tom de voz. Pense neles como um <strong class="text-blue-400">"estagiario inteligente"</strong> que conhece sua empresa por dentro e por fora.
         </p>
 
         <div class="bg-dark-700/50 rounded-xl p-6">
-          <p class="text-neutral-200 text-lg font-semibold mb-4">O autor Nate Herk defende:</p>
-          <blockquote class="border-l-4 border-emerald-500 pl-4 italic text-neutral-300">
-            "Transitar de um 'Construtor de Agentes de IA' para um 'Resolvedor de Problemas' escolhendo a solucao mais eficiente, economica e simples para cada tarefa."
+          <p class="text-neutral-200 text-lg font-semibold mb-4">A caracteristica definidora:</p>
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic text-neutral-300">
+            "E totalmente reativo. Voce fala com ele, ele responde. Nenhuma acao acontece a menos que voce esteja na conversa."
           </blockquote>
         </div>
       </div>
     </section>
 
-    <!-- 3 Perguntas -->
+    <!-- Componentes -->
     <section class="mb-12">
       <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">🔍</span>
+          <span class="text-4xl mr-4">🧩</span>
           <div>
-            <h2 class="text-2xl font-bold text-neutral-100">Antes de Construir, Pergunte</h2>
-            <p class="text-neutral-400">As 3 perguntas essenciais</p>
+            <h2 class="text-2xl font-bold text-neutral-100">Componentes de um Custom GPT</h2>
+            <p class="text-neutral-400">Os elementos que voce configura</p>
           </div>
         </div>
 
-        <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">1</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Qual e a raiz do problema?</h3>
-              <p class="text-neutral-300">Entenda o problema real antes de pensar em solucoes. Muitas vezes o problema nao e o que parece a principio.</p>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-dark-700/50 rounded-xl p-5">
+            <div class="flex items-center mb-3">
+              <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold mr-3">1</div>
+              <h3 class="text-lg font-bold text-blue-400">Instrucoes Especificas</h3>
+            </div>
+            <p class="text-neutral-300 text-sm">Defina como o assistente deve se comportar, responder e interagir. Inclua regras, restricoes e preferencias.</p>
+          </div>
+
+          <div class="bg-dark-700/50 rounded-xl p-5">
+            <div class="flex items-center mb-3">
+              <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold mr-3">2</div>
+              <h3 class="text-lg font-bold text-blue-400">Base de Conhecimento</h3>
+            </div>
+            <p class="text-neutral-300 text-sm">Adicione documentos, PDFs, planilhas e outros arquivos que o assistente deve consultar para dar respostas precisas.</p>
+          </div>
+
+          <div class="bg-dark-700/50 rounded-xl p-5">
+            <div class="flex items-center mb-3">
+              <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold mr-3">3</div>
+              <h3 class="text-lg font-bold text-blue-400">Tom e Voz</h3>
+            </div>
+            <p class="text-neutral-300 text-sm">Configure a personalidade: formal ou informal, tecnico ou simples, serio ou descontraido.</p>
+          </div>
+
+          <div class="bg-dark-700/50 rounded-xl p-5">
+            <div class="flex items-center mb-3">
+              <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold mr-3">4</div>
+              <h3 class="text-lg font-bold text-blue-400">Acoes (Opcional)</h3>
+            </div>
+            <p class="text-neutral-300 text-sm">Conecte APIs externas para que o GPT possa buscar dados em tempo real ou executar acoes simples.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plataformas -->
+    <section class="mb-12">
+      <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">🌐</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">Plataformas Disponiveis</h2>
+            <p class="text-neutral-400">Onde voce pode criar assistentes personalizados</p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-emerald-900/20 rounded-xl p-5 border border-emerald-500/30">
+            <h3 class="text-lg font-bold text-emerald-400 mb-3">OpenAI - Custom GPTs</h3>
+            <ul class="space-y-2 text-neutral-300 text-sm">
+              <li>• GPT Store para publicar</li>
+              <li>• Acoes com APIs externas</li>
+              <li>• Code Interpreter</li>
+              <li>• DALL-E para imagens</li>
+            </ul>
+          </div>
+
+          <div class="bg-purple-900/20 rounded-xl p-5 border border-purple-500/30">
+            <h3 class="text-lg font-bold text-purple-400 mb-3">Anthropic - Projects</h3>
+            <ul class="space-y-2 text-neutral-300 text-sm">
+              <li>• Claude como base</li>
+              <li>• Contexto mais longo</li>
+              <li>• Melhor para analise</li>
+              <li>• Artifacts interativos</li>
+            </ul>
+          </div>
+
+          <div class="bg-blue-900/20 rounded-xl p-5 border border-blue-500/30">
+            <h3 class="text-lg font-bold text-blue-400 mb-3">Google - Gems</h3>
+            <ul class="space-y-2 text-neutral-300 text-sm">
+              <li>• Gemini como base</li>
+              <li>• Integracao Google</li>
+              <li>• Acesso a web</li>
+              <li>• Multimodal nativo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quando Usar -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-r from-emerald-900/20 to-dark-800 rounded-2xl p-8 border border-emerald-500/30">
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">✅</span>
+          <div>
+            <h2 class="text-2xl font-bold text-emerald-400">Quando Usar Custom GPTs</h2>
+            <p class="text-neutral-400">Cenarios ideais para esta camada</p>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-emerald-400 mr-3 text-xl">✓</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Tarefas repetitivas com revisao humana</p>
+              <p class="text-neutral-400 text-sm">O humano precisa ver e aprovar o resultado antes de usar.</p>
             </div>
           </div>
 
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">2</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Qual e a solucao mais eficiente?</h3>
-              <p class="text-neutral-300">Nem sempre a mais complexa e a melhor. A solucao mais simples que resolve o problema e geralmente a correta.</p>
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-emerald-400 mr-3 text-xl">✓</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Processos criativos ou iterativos</p>
+              <p class="text-neutral-400 text-sm">Brainstorming, escrita, ideacao - onde voce vai e volta ate acertar.</p>
             </div>
           </div>
 
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">3</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Como manter os custos baixos e a complexidade simples?</h3>
-              <p class="text-neutral-300">Simplicidade e manutencao sao fundamentais. Sistemas complexos custam mais e quebram mais.</p>
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-emerald-400 mr-3 text-xl">✓</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Consultas a base de conhecimento</p>
+              <p class="text-neutral-400 text-sm">Perguntas sobre documentos internos, manuais, processos.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-emerald-400 mr-3 text-xl">✓</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Prototipagem rapida</p>
+              <p class="text-neutral-400 text-sm">Testar uma ideia antes de construir algo mais complexo.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Regra dos 50% -->
+    <!-- Quando NAO Usar -->
     <section class="mb-12">
-      <div class="bg-gradient-to-r from-yellow-900/20 to-orange-900/20 rounded-2xl p-8 border border-yellow-500/30">
+      <div class="bg-gradient-to-r from-red-900/20 to-dark-800 rounded-2xl p-8 border border-red-500/30">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">⚠️</span>
+          <span class="text-4xl mr-4">❌</span>
           <div>
-            <h2 class="text-2xl font-bold text-yellow-400">A Regra dos 50%</h2>
-            <p class="text-neutral-400">Um insight crucial</p>
+            <h2 class="text-2xl font-bold text-red-400">Quando NAO Usar</h2>
+            <p class="text-neutral-400">Sinais de que voce precisa subir na piramide</p>
           </div>
         </div>
 
-        <div class="bg-dark-800/50 rounded-xl p-6 mb-6">
-          <p class="text-2xl font-bold text-center text-yellow-400 mb-4">
-            Metade dos problemas pode ser resolvida SEM IA!
-          </p>
-          <p class="text-neutral-300 text-center">
-            Cerca de 50% das automacoes em empresas nao precisam de inteligencia artificial. Antes de implementar IA, verifique se uma automacao simples resolve.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-red-900/20 p-6 rounded-xl border border-red-500/30">
-            <h4 class="font-bold text-red-400 mb-4">✗ Regra dos Tokens Desperdicados</h4>
-            <p class="text-neutral-300 text-sm">Nao use agentes para processos lineares! Voce estara desperdicando tokens (e dinheiro) em algo que pode ser feito de forma mais simples.</p>
+        <div class="space-y-4">
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-red-400 mr-3 text-xl">✗</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Processos que devem rodar automaticamente</p>
+              <p class="text-neutral-400 text-sm">Se ninguem precisa estar presente, use automacao ou workflow.</p>
+            </div>
           </div>
-          <div class="bg-emerald-900/20 p-6 rounded-xl border border-emerald-500/30">
-            <h4 class="font-bold text-emerald-400 mb-4">✓ Escale com o Tempo</h4>
-            <p class="text-neutral-300 text-sm">Comece simples! Muitas vezes voce comeca com uma solucao simples e escala para algo mais complexo depois (ou o contrario).</p>
+
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-red-400 mr-3 text-xl">✗</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Tarefas que precisam de acoes em sistemas externos</p>
+              <p class="text-neutral-400 text-sm">Enviar emails, atualizar banco de dados, disparar webhooks.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-red-400 mr-3 text-xl">✗</span>
+            <div>
+              <p class="text-neutral-200 font-semibold">Fluxos com multiplas etapas sequenciais</p>
+              <p class="text-neutral-400 text-sm">Se ha uma sequencia clara de passos, considere um workflow.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Comparacao -->
+    <!-- Exemplo Pratico -->
     <section class="mb-12">
       <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
-        <h2 class="text-2xl font-bold text-neutral-100 mb-6 text-center">Duas Mentalidades</h2>
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">💡</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">Exemplo Pratico</h2>
+            <p class="text-neutral-400">Um caso real de uso</p>
+          </div>
+        </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-red-900/20 p-6 rounded-xl border border-red-500/30">
-            <div class="text-center mb-4">
-              <span class="text-4xl">🤖</span>
-              <h3 class="text-xl font-bold text-red-400 mt-2">Construtor de Agentes</h3>
+        <div class="bg-blue-900/20 rounded-xl p-6 border border-blue-500/30 mb-6">
+          <h4 class="font-bold text-blue-400 mb-3">Caso: Gerador de Guias de Setup para YouTube</h4>
+          <p class="text-neutral-300 mb-4">
+            Um Custom GPT configurado para gerar guias de configuracao para videos do YouTube. O criador de conteudo conversa com o GPT, fornece detalhes do video, e recebe um guia formatado.
+          </p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <p class="text-sm text-blue-400 font-semibold mb-2">Por que funciona aqui:</p>
+              <ul class="text-neutral-400 text-sm space-y-1">
+                <li>• Processo criativo/iterativo</li>
+                <li>• Humano revisa antes de publicar</li>
+                <li>• Cada video e diferente</li>
+              </ul>
             </div>
-            <ul class="space-y-3 text-neutral-300">
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Quer usar IA em tudo</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Comeca pelo mais complexo</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Ignora custos e manutencao</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Foco na tecnologia, nao no problema</span>
-              </li>
-            </ul>
+            <div>
+              <p class="text-sm text-blue-400 font-semibold mb-2">O que o GPT faz:</p>
+              <ul class="text-neutral-400 text-sm space-y-1">
+                <li>• Conhece o formato padrao</li>
+                <li>• Adapta ao conteudo especifico</li>
+                <li>• Permite ajustes rapidos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-700/50 rounded-xl p-4">
+          <p class="text-sm text-neutral-400"><strong class="text-emerald-400">Resultado:</strong> O criador economiza tempo, mantem consistencia, e ainda tem controle total sobre o resultado final.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dicas de Configuracao -->
+    <section class="mb-12">
+      <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">⚙️</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">Dicas de Configuracao</h2>
+            <p class="text-neutral-400">Como criar um Custom GPT eficiente</p>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-start">
+            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3 flex-shrink-0">1</div>
+            <div>
+              <p class="text-neutral-200 font-semibold">Seja especifico nas instrucoes</p>
+              <p class="text-neutral-400 text-sm">Quanto mais detalhado, melhor. Inclua exemplos do que voce quer e do que nao quer.</p>
+            </div>
           </div>
 
-          <div class="bg-emerald-900/20 p-6 rounded-xl border border-emerald-500/30">
-            <div class="text-center mb-4">
-              <span class="text-4xl">🎯</span>
-              <h3 class="text-xl font-bold text-emerald-400 mt-2">Resolvedor de Problemas</h3>
+          <div class="flex items-start">
+            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3 flex-shrink-0">2</div>
+            <div>
+              <p class="text-neutral-200 font-semibold">Organize a base de conhecimento</p>
+              <p class="text-neutral-400 text-sm">Documentos bem estruturados geram respostas melhores. Evite PDFs escaneados.</p>
             </div>
-            <ul class="space-y-3 text-neutral-300">
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Escolhe a ferramenta certa</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Comeca simples</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Prioriza eficiencia</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Foco no problema, nao na tecnologia</span>
-              </li>
-            </ul>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3 flex-shrink-0">3</div>
+            <div>
+              <p class="text-neutral-200 font-semibold">Defina limites claros</p>
+              <p class="text-neutral-400 text-sm">O que o GPT NAO deve fazer e tao importante quanto o que deve fazer.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3 flex-shrink-0">4</div>
+            <div>
+              <p class="text-neutral-200 font-semibold">Teste e itere</p>
+              <p class="text-neutral-400 text-sm">Nenhum GPT fica perfeito na primeira tentativa. Teste, ajuste, repita.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -239,53 +403,44 @@
     <!-- Resumo -->
     <section class="mb-12">
       <div class="bg-primary/10 rounded-2xl p-8 border border-primary/30">
-        <h2 class="text-2xl font-bold text-primary mb-6 text-center">📋 Resumo do Modulo</h2>
+        <h2 class="text-2xl font-bold text-primary mb-6 text-center">Resumo do Modulo</h2>
 
         <div class="space-y-4 mb-8">
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
             <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">O excesso de engenharia e o erro mais comum na implementacao de IA</span>
+            <span class="text-neutral-200">Custom GPTs sao assistentes reativos - so funcionam quando voce interage</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
             <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">Antes de construir, faca as 3 perguntas essenciais</span>
+            <span class="text-neutral-200">Ideais para tarefas criativas, iterativas e com revisao humana</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
             <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">50% dos problemas podem ser resolvidos SEM IA</span>
+            <span class="text-neutral-200">Baixo custo e baixa complexidade - otima porta de entrada</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
             <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">Comece simples e escale com o tempo</span>
+            <span class="text-neutral-200">Nao substitui automacao - use quando o humano PRECISA estar no loop</span>
           </div>
         </div>
 
         <div class="bg-dark-800 rounded-xl p-6 text-center">
           <p class="text-2xl font-bold gradient-text mb-2">Principio-chave</p>
-          <p class="text-xl text-neutral-200">"Seja um resolvedor de problemas, nao um construtor de AI Agents."</p>
-        </div>
-
-        <div class="text-center mt-8">
-          <a href="index.html" class="inline-flex items-center space-x-2 px-6 py-3 bg-primary text-dark-900 rounded-lg font-bold hover:bg-primary/90 transition-colors">
-            <span>Voltar para a Trilha</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <p class="text-xl text-neutral-200">"Custom GPT = Estagiario inteligente que espera voce pedir."</p>
         </div>
       </div>
     </section>
 
     <!-- Navegacao -->
     <div class="flex justify-between items-center pt-8 border-t border-dark-700">
-      <a href="index.html" class="flex items-center text-neutral-400 hover:text-primary transition-colors">
+      <a href="modulo-1-2.html" class="flex items-center text-neutral-400 hover:text-primary transition-colors">
         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
-        Voltar para Trilha
+        Anterior: Piramide
       </a>
-      <a href="modulo-1-2.html" class="flex items-center px-6 py-3 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition-colors">
-        Proximo: A Piramide
+      <a href="modulo-1-4.html" class="flex items-center px-6 py-3 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition-colors">
+        Proximo: Automacao Simples
         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
@@ -296,7 +451,7 @@
   <!-- Footer -->
   <footer class="bg-dark-900 border-t border-dark-700 py-8">
     <div class="max-w-4xl mx-auto px-4 text-center">
-      <p class="text-neutral-500 text-sm">Automacao 2026 - Modulo 1.1: A Filosofia do Resolvedor</p>
+      <p class="text-neutral-500 text-sm">Automacao 2026 - Modulo 1.3: Custom GPTs e Projetos</p>
     </div>
   </footer>
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modulo 1.1: A Filosofia do Resolvedor | Automacao 2026</title>
+  <title>Modulo 3.3: Ferramentas e Memoria | Automacao 2026</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -22,7 +22,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', sans-serif; }
-    .gradient-text { background: linear-gradient(90deg, #CDDC39, #E040FB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .gradient-text { background: linear-gradient(90deg, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     html:not(.dark) body { background-color: #f8fafc; }
     html:not(.dark) .bg-dark-900 { background-color: #f8fafc !important; }
     html:not(.dark) .bg-dark-800 { background-color: #ffffff !important; }
@@ -37,6 +37,26 @@
 </head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 
+  <!-- Trilhas Bar -->
+  <div class="bg-dark-800 border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-center items-center gap-6 py-2">
+        <a href="../trilha1-fundamentos/index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-dark-700 border-2 border-transparent text-neutral-400 hover:text-emerald-400 hover:border-emerald-500/50 font-medium text-sm transition-all">
+          <span>📚</span>
+          <span>Trilha 1</span>
+        </a>
+        <a href="../trilha2-implementacao/index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-dark-700 border-2 border-transparent text-neutral-400 hover:text-blue-400 hover:border-blue-500/50 font-medium text-sm transition-all">
+          <span>🔧</span>
+          <span>Trilha 2</span>
+        </a>
+        <a href="index.html" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-500/20 border-2 border-purple-500 text-purple-400 font-semibold text-sm transition-all">
+          <span>🚀</span>
+          <span>Trilha 3</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +67,7 @@
           </svg>
           <span>Voltar para Trilha</span>
         </a>
-        <span class="text-emerald-400 font-semibold">Modulo 1.1</span>
+        <span class="text-purple-400 font-semibold">Modulo 3.3</span>
       </div>
     </div>
   </nav>
@@ -56,182 +76,577 @@
 
     <!-- Header -->
     <div class="text-center mb-12">
-      <span class="inline-block px-4 py-2 bg-emerald-500/20 text-emerald-400 rounded-full text-sm font-semibold mb-4">
-        MODULO 1.1 - FUNDAMENTOS
+      <span class="inline-block px-4 py-2 bg-purple-500/20 text-purple-400 rounded-full text-sm font-semibold mb-4">
+        MODULO 3.3 - MAESTRIA
       </span>
-      <h1 class="text-4xl sm:text-5xl font-bold mb-4">🎯 A Filosofia do Resolvedor de Problemas</h1>
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Ferramentas e Memoria</h1>
       <p class="text-xl text-neutral-400 max-w-2xl mx-auto">
-        Mude sua mentalidade de "construir agentes" para "resolver problemas de forma eficiente"
+        Como agents interagem com o mundo e lembram do que fizeram
       </p>
     </div>
 
     <!-- Stats -->
     <div class="grid grid-cols-3 gap-4 mb-12">
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">3</div>
-        <div class="text-xs text-neutral-400">Perguntas-chave</div>
+        <div class="text-2xl font-bold text-purple-400">∞</div>
+        <div class="text-xs text-neutral-400">Tipos Tools</div>
       </div>
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">50%</div>
-        <div class="text-xs text-neutral-400">Regra de Ouro</div>
+        <div class="text-2xl font-bold text-purple-400">2</div>
+        <div class="text-xs text-neutral-400">Tipos Memoria</div>
       </div>
       <div class="bg-dark-800 rounded-xl p-4 text-center border border-dark-600">
-        <div class="text-2xl font-bold text-emerald-400">1</div>
-        <div class="text-xs text-neutral-400">Principio Central</div>
+        <div class="text-2xl font-bold text-purple-400">RAG</div>
+        <div class="text-xs text-neutral-400">Padrao Comum</div>
       </div>
     </div>
 
-    <!-- Conteudo Principal -->
+    <!-- O que sao Ferramentas -->
     <section class="mb-12">
-      <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-2xl p-8 border border-emerald-500/30">
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-2xl p-8 border border-purple-500/30">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">💡</span>
+          <span class="text-4xl mr-4">🔧</span>
           <div>
-            <h2 class="text-2xl font-bold text-emerald-400">A Ideia Central</h2>
-            <p class="text-neutral-400">O erro mais comum na implementacao de IA</p>
+            <h2 class="text-2xl font-bold text-purple-400">O que sao Ferramentas (Tools)?</h2>
+            <p class="text-neutral-400">As maos e olhos do agent</p>
           </div>
         </div>
 
         <p class="text-lg text-neutral-300 mb-6">
-          AI Agents estao sendo usados em <strong class="text-emerald-400">excesso</strong> e, muitas vezes, <strong class="text-red-400">nao sao a melhor solucao</strong>. O foco deve ser resolver problemas de forma eficiente, escolhendo o nivel certo de complexidade, e nao "construir agentes por construir".
+          Ferramentas (ou "tools" ou "functions") sao as <strong class="text-purple-400">acoes concretas</strong> que um agent pode realizar no mundo real. Sem ferramentas, um agent e apenas um chatbot que pensa, mas nao age.
         </p>
 
+        <div class="bg-dark-700/50 rounded-xl p-6 mb-6">
+          <p class="text-neutral-200 text-lg font-semibold mb-4">Analogia:</p>
+          <div class="flex items-center space-x-4">
+            <div class="flex-1 bg-dark-800/50 p-4 rounded-lg text-center">
+              <p class="text-neutral-400 text-sm mb-2">LLM sozinho</p>
+              <p class="text-2xl">🧠</p>
+              <p class="text-neutral-500 text-xs mt-2">Cerebro sem corpo</p>
+            </div>
+            <span class="text-purple-400 text-2xl">+</span>
+            <div class="flex-1 bg-dark-800/50 p-4 rounded-lg text-center">
+              <p class="text-neutral-400 text-sm mb-2">Ferramentas</p>
+              <p class="text-2xl">🔧 📊 🌐</p>
+              <p class="text-neutral-500 text-xs mt-2">Maos, olhos, acoes</p>
+            </div>
+            <span class="text-purple-400 text-2xl">=</span>
+            <div class="flex-1 bg-purple-900/30 p-4 rounded-lg text-center border border-purple-500/30">
+              <p class="text-purple-400 text-sm mb-2">AI Agent</p>
+              <p class="text-2xl">🤖</p>
+              <p class="text-purple-400 text-xs mt-2">Entidade completa</p>
+            </div>
+          </div>
+        </div>
+
         <div class="bg-dark-700/50 rounded-xl p-6">
-          <p class="text-neutral-200 text-lg font-semibold mb-4">O autor Nate Herk defende:</p>
-          <blockquote class="border-l-4 border-emerald-500 pl-4 italic text-neutral-300">
-            "Transitar de um 'Construtor de Agentes de IA' para um 'Resolvedor de Problemas' escolhendo a solucao mais eficiente, economica e simples para cada tarefa."
+          <blockquote class="border-l-4 border-purple-500 pl-4 italic text-neutral-300">
+            "Um agent sem ferramentas e como um piloto sem aviao - pode saber voar, mas nao pode fazer nada com esse conhecimento."
           </blockquote>
         </div>
       </div>
     </section>
 
-    <!-- 3 Perguntas -->
+    <!-- Tipos de Ferramentas -->
     <section class="mb-12">
       <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">🔍</span>
+          <span class="text-4xl mr-4">🛠️</span>
           <div>
-            <h2 class="text-2xl font-bold text-neutral-100">Antes de Construir, Pergunte</h2>
-            <p class="text-neutral-400">As 3 perguntas essenciais</p>
+            <h2 class="text-2xl font-bold text-neutral-100">Tipos de Ferramentas</h2>
+            <p class="text-neutral-400">Categorias principais</p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gradient-to-br from-blue-900/20 to-dark-700 rounded-xl p-6 border border-blue-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">📖</span>
+              <h3 class="text-xl font-bold text-blue-400">1. Leitura / Busca</h3>
+            </div>
+            <p class="text-neutral-300 mb-4 text-sm">
+              Ferramentas que PEGAM informacao do mundo externo.
+            </p>
+            <div class="space-y-2 text-sm">
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-blue-400">Buscar web</strong>
+                <p class="text-neutral-400 text-xs">Google, DuckDuckGo, APIs de search</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-blue-400">Ler banco de dados</strong>
+                <p class="text-neutral-400 text-xs">SELECT queries, APIs de DB</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-blue-400">Ler arquivos</strong>
+                <p class="text-neutral-400 text-xs">PDFs, CSVs, documentos</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-blue-400">Chamar APIs</strong>
+                <p class="text-neutral-400 text-xs">Clima, financas, noticias</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-emerald-900/20 to-dark-700 rounded-xl p-6 border border-emerald-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">✍️</span>
+              <h3 class="text-xl font-bold text-emerald-400">2. Escrita / Acao</h3>
+            </div>
+            <p class="text-neutral-300 mb-4 text-sm">
+              Ferramentas que MODIFICAM o mundo externo.
+            </p>
+            <div class="space-y-2 text-sm">
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-emerald-400">Salvar dados</strong>
+                <p class="text-neutral-400 text-xs">INSERT, UPDATE em bancos</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-emerald-400">Enviar email/mensagem</strong>
+                <p class="text-neutral-400 text-xs">SMTP, Slack, WhatsApp APIs</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-emerald-400">Criar arquivos</strong>
+                <p class="text-neutral-400 text-xs">Gerar PDFs, planilhas, imagens</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-emerald-400">Executar codigo</strong>
+                <p class="text-neutral-400 text-xs">Python interpreter, shell commands</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-purple-900/20 to-dark-700 rounded-xl p-6 border border-purple-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">🔄</span>
+              <h3 class="text-xl font-bold text-purple-400">3. Processamento</h3>
+            </div>
+            <p class="text-neutral-300 mb-4 text-sm">
+              Ferramentas que TRANSFORMAM dados.
+            </p>
+            <div class="space-y-2 text-sm">
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-purple-400">Calcular</strong>
+                <p class="text-neutral-400 text-xs">Matematica, formulas complexas</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-purple-400">Analisar dados</strong>
+                <p class="text-neutral-400 text-xs">Pandas, estatisticas</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-purple-400">Converter formatos</strong>
+                <p class="text-neutral-400 text-xs">CSV → JSON, imagem → texto</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-purple-400">Validar dados</strong>
+                <p class="text-neutral-400 text-xs">Verificar CPF, email, etc</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-yellow-900/20 to-dark-700 rounded-xl p-6 border border-yellow-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">🤝</span>
+              <h3 class="text-xl font-bold text-yellow-400">4. Integracao</h3>
+            </div>
+            <p class="text-neutral-300 mb-4 text-sm">
+              Ferramentas que CONECTAM sistemas.
+            </p>
+            <div class="space-y-2 text-sm">
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-yellow-400">Zapier/Make</strong>
+                <p class="text-neutral-400 text-xs">Conectar milhares de apps</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-yellow-400">CRM/ERP</strong>
+                <p class="text-neutral-400 text-xs">Salesforce, HubSpot, SAP</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-yellow-400">Pagamento</strong>
+                <p class="text-neutral-400 text-xs">Stripe, PayPal APIs</p>
+              </div>
+              <div class="bg-dark-800/50 p-3 rounded-lg">
+                <strong class="text-yellow-400">Cloud services</strong>
+                <p class="text-neutral-400 text-xs">AWS, GCP, Azure SDKs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como Definir Ferramentas Eficazes -->
+    <section class="mb-12">
+      <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">⚡</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">Como Definir Ferramentas Eficazes</h2>
+            <p class="text-neutral-400">Boas praticas</p>
           </div>
         </div>
 
         <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">1</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Qual e a raiz do problema?</h3>
-              <p class="text-neutral-300">Entenda o problema real antes de pensar em solucoes. Muitas vezes o problema nao e o que parece a principio.</p>
+          <div class="bg-dark-700/50 rounded-xl p-6">
+            <div class="flex items-center mb-3">
+              <span class="text-2xl mr-3">1️⃣</span>
+              <h3 class="text-lg font-bold text-purple-400">Nome claro e descritivo</h3>
+            </div>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+              <div class="bg-red-900/10 p-3 rounded-lg border border-red-500/20">
+                <p class="text-red-400 font-semibold mb-1">❌ Ruim</p>
+                <code class="text-neutral-300">get_data()</code>
+                <p class="text-neutral-500 text-xs mt-1">Vago demais</p>
+              </div>
+              <div class="bg-emerald-900/10 p-3 rounded-lg border border-emerald-500/20">
+                <p class="text-emerald-400 font-semibold mb-1">✓ Bom</p>
+                <code class="text-neutral-300">buscar_pedidos_cliente(cpf)</code>
+                <p class="text-neutral-500 text-xs mt-1">Especifico e claro</p>
+              </div>
             </div>
           </div>
 
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">2</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Qual e a solucao mais eficiente?</h3>
-              <p class="text-neutral-300">Nem sempre a mais complexa e a melhor. A solucao mais simples que resolve o problema e geralmente a correta.</p>
+          <div class="bg-dark-700/50 rounded-xl p-6">
+            <div class="flex items-center mb-3">
+              <span class="text-2xl mr-3">2️⃣</span>
+              <h3 class="text-lg font-bold text-purple-400">Descricao detalhada</h3>
+            </div>
+            <p class="text-neutral-300 text-sm mb-3">A descricao e CRITICA - e como o agent "entende" quando usar a ferramenta.</p>
+            <div class="bg-dark-800 rounded-lg p-4">
+              <pre class="text-xs text-neutral-300 overflow-x-auto"><code>"description": "Busca todos os pedidos de um cliente especifico.
+Use esta ferramenta quando o usuario perguntar sobre compras,
+historico de pedidos, ou status de entregas de um cliente.
+Retorna lista com ID, data, valor e status de cada pedido."</code></pre>
             </div>
           </div>
 
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0">3</div>
-            <div class="bg-dark-700/50 rounded-xl p-5 flex-1">
-              <h3 class="text-xl font-bold text-emerald-400 mb-2">Como manter os custos baixos e a complexidade simples?</h3>
-              <p class="text-neutral-300">Simplicidade e manutencao sao fundamentais. Sistemas complexos custam mais e quebram mais.</p>
+          <div class="bg-dark-700/50 rounded-xl p-6">
+            <div class="flex items-center mb-3">
+              <span class="text-2xl mr-3">3️⃣</span>
+              <h3 class="text-lg font-bold text-purple-400">Parametros bem definidos</h3>
+            </div>
+            <ul class="space-y-2 text-sm text-neutral-300">
+              <li class="flex items-start">
+                <span class="text-purple-400 mr-2">•</span>
+                <span>Use <code class="bg-dark-800 px-1">enum</code> quando houver opcoes fixas</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-purple-400 mr-2">•</span>
+                <span>Marque parametros como <code class="bg-dark-800 px-1">required</code> ou opcionais</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-purple-400 mr-2">•</span>
+                <span>De exemplos no campo <code class="bg-dark-800 px-1">description</code> de cada parametro</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-purple-400 mr-2">•</span>
+                <span>Valide os inputs antes de executar a acao</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bg-dark-700/50 rounded-xl p-6">
+            <div class="flex items-center mb-3">
+              <span class="text-2xl mr-3">4️⃣</span>
+              <h3 class="text-lg font-bold text-purple-400">Uma responsabilidade por ferramenta</h3>
+            </div>
+            <p class="text-neutral-300 text-sm mb-3">
+              Melhor ter 5 ferramentas simples do que 1 ferramenta que faz tudo.
+            </p>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+              <div class="bg-red-900/10 p-3 rounded-lg border border-red-500/20">
+                <p class="text-red-400 font-semibold mb-1">❌ Evite</p>
+                <code class="text-neutral-300 text-xs">gerenciar_cliente(acao, dados)</code>
+                <p class="text-neutral-500 text-xs mt-1">Muito generico</p>
+              </div>
+              <div class="bg-emerald-900/10 p-3 rounded-lg border border-emerald-500/20">
+                <p class="text-emerald-400 font-semibold mb-1">✓ Prefira</p>
+                <code class="text-neutral-300 text-xs">criar_cliente()</code><br>
+                <code class="text-neutral-300 text-xs">atualizar_cliente()</code><br>
+                <code class="text-neutral-300 text-xs">deletar_cliente()</code>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Regra dos 50% -->
+    <!-- Memoria: Introducao -->
     <section class="mb-12">
-      <div class="bg-gradient-to-r from-yellow-900/20 to-orange-900/20 rounded-2xl p-8 border border-yellow-500/30">
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-2xl p-8 border border-purple-500/30">
         <div class="flex items-center mb-6">
-          <span class="text-4xl mr-4">⚠️</span>
+          <span class="text-4xl mr-4">💾</span>
           <div>
-            <h2 class="text-2xl font-bold text-yellow-400">A Regra dos 50%</h2>
-            <p class="text-neutral-400">Um insight crucial</p>
+            <h2 class="text-2xl font-bold text-purple-400">Memoria em AI Agents</h2>
+            <p class="text-neutral-400">O que o agent lembra e por quanto tempo</p>
           </div>
         </div>
 
-        <div class="bg-dark-800/50 rounded-xl p-6 mb-6">
-          <p class="text-2xl font-bold text-center text-yellow-400 mb-4">
-            Metade dos problemas pode ser resolvida SEM IA!
-          </p>
-          <p class="text-neutral-300 text-center">
-            Cerca de 50% das automacoes em empresas nao precisam de inteligencia artificial. Antes de implementar IA, verifique se uma automacao simples resolve.
-          </p>
-        </div>
+        <p class="text-lg text-neutral-300 mb-6">
+          Memoria permite que agents sejam <strong class="text-purple-400">contextuais</strong> e <strong class="text-purple-400">adaptativos</strong>. Sem memoria, cada interacao comeca do zero.
+        </p>
 
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-red-900/20 p-6 rounded-xl border border-red-500/30">
-            <h4 class="font-bold text-red-400 mb-4">✗ Regra dos Tokens Desperdicados</h4>
-            <p class="text-neutral-300 text-sm">Nao use agentes para processos lineares! Voce estara desperdicando tokens (e dinheiro) em algo que pode ser feito de forma mais simples.</p>
-          </div>
-          <div class="bg-emerald-900/20 p-6 rounded-xl border border-emerald-500/30">
-            <h4 class="font-bold text-emerald-400 mb-4">✓ Escale com o Tempo</h4>
-            <p class="text-neutral-300 text-sm">Comece simples! Muitas vezes voce comeca com uma solucao simples e escala para algo mais complexo depois (ou o contrario).</p>
+        <div class="bg-dark-700/50 rounded-xl p-6">
+          <p class="text-neutral-200 text-lg font-semibold mb-4">Por que Memoria importa:</p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="flex items-start">
+              <span class="text-purple-400 mr-2 text-xl">✓</span>
+              <div>
+                <strong class="text-purple-400">Continuidade</strong>
+                <p class="text-neutral-400 text-sm">Lembra de interacoes anteriores</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-purple-400 mr-2 text-xl">✓</span>
+              <div>
+                <strong class="text-purple-400">Personalizacao</strong>
+                <p class="text-neutral-400 text-sm">Aprende preferencias do usuario</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-purple-400 mr-2 text-xl">✓</span>
+              <div>
+                <strong class="text-purple-400">Eficiencia</strong>
+                <p class="text-neutral-400 text-sm">Nao repete perguntas ou acoes</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-purple-400 mr-2 text-xl">✓</span>
+              <div>
+                <strong class="text-purple-400">Raciocinio</strong>
+                <p class="text-neutral-400 text-sm">Usa informacoes de passos anteriores</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Comparacao -->
+    <!-- Tipos de Memoria -->
     <section class="mb-12">
       <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
-        <h2 class="text-2xl font-bold text-neutral-100 mb-6 text-center">Duas Mentalidades</h2>
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">🧠</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">2 Tipos de Memoria</h2>
+            <p class="text-neutral-400">Curto prazo vs Longo prazo</p>
+          </div>
+        </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-red-900/20 p-6 rounded-xl border border-red-500/30">
-            <div class="text-center mb-4">
-              <span class="text-4xl">🤖</span>
-              <h3 class="text-xl font-bold text-red-400 mt-2">Construtor de Agentes</h3>
+        <div class="space-y-6">
+          <!-- Memoria de Curto Prazo -->
+          <div class="bg-gradient-to-r from-blue-900/30 to-dark-700 rounded-xl p-6 border border-blue-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">💬</span>
+              <h3 class="text-xl font-bold text-blue-400">Memoria de Curto Prazo (Contexto)</h3>
             </div>
-            <ul class="space-y-3 text-neutral-300">
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Quer usar IA em tudo</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Comeca pelo mais complexo</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Ignora custos e manutencao</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-400 mr-2">✗</span>
-                <span>Foco na tecnologia, nao no problema</span>
-              </li>
-            </ul>
+
+            <p class="text-neutral-300 mb-4">
+              A conversa atual - tudo que esta na "janela de contexto" do LLM.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <p class="text-sm font-semibold text-blue-400 mb-2">Caracteristicas:</p>
+                <ul class="space-y-1 text-sm text-neutral-300">
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Dura apenas a sessao atual</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Limitada pelo context window (ex: 128k tokens)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Automatica - nao precisa implementar nada</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Cara - cada token conta para o custo</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-blue-400 mb-2">Uso tipico:</p>
+                <ul class="space-y-1 text-sm text-neutral-300">
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Historico da conversa (mensagens recentes)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Resultados de ferramentas usadas</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Pensamentos do agent (ReAct loop)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-blue-400 mr-2">•</span>
+                    <span>Informacoes da tarefa atual</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-dark-800/50 rounded-lg p-4">
+              <p class="text-xs text-neutral-500 mb-2">Exemplo de contexto:</p>
+              <pre class="text-xs text-neutral-300 overflow-x-auto"><code>System: Voce e um assistente de vendas...
+User: Quais foram minhas ultimas compras?
+Agent: Vou buscar isso. [Chama ferramenta]
+Tool Result: [Pedido #123, Pedido #456]
+Agent: Voce fez 2 compras: pedido #123 (livro) e #456 (teclado)
+User: Quanto custou o livro?
+Agent: [Olha no contexto acima] O pedido #123 custou R$ 45,00</code></pre>
+            </div>
           </div>
 
-          <div class="bg-emerald-900/20 p-6 rounded-xl border border-emerald-500/30">
-            <div class="text-center mb-4">
-              <span class="text-4xl">🎯</span>
-              <h3 class="text-xl font-bold text-emerald-400 mt-2">Resolvedor de Problemas</h3>
+          <!-- Memoria de Longo Prazo -->
+          <div class="bg-gradient-to-r from-emerald-900/30 to-dark-700 rounded-xl p-6 border border-emerald-500/30">
+            <div class="flex items-center mb-4">
+              <span class="text-3xl mr-3">🗄️</span>
+              <h3 class="text-xl font-bold text-emerald-400">Memoria de Longo Prazo (Vector Store / RAG)</h3>
             </div>
-            <ul class="space-y-3 text-neutral-300">
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Escolhe a ferramenta certa</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Comeca simples</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Prioriza eficiencia</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-emerald-400 mr-2">✓</span>
-                <span>Foco no problema, nao na tecnologia</span>
-              </li>
-            </ul>
+
+            <p class="text-neutral-300 mb-4">
+              Informacoes persistentes armazenadas fora do contexto, acessadas quando necessario.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <p class="text-sm font-semibold text-emerald-400 mb-2">Caracteristicas:</p>
+                <ul class="space-y-1 text-sm text-neutral-300">
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Persiste entre sessoes</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Ilimitada (armazena milhoes de docs)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Precisa implementar (Pinecone, Weaviate, Chroma)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Busca semantica via embeddings</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-emerald-400 mb-2">Uso tipico:</p>
+                <ul class="space-y-1 text-sm text-neutral-300">
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Base de conhecimento da empresa</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Historico completo de interacoes</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Documentacao tecnica</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-400 mr-2">•</span>
+                    <span>Preferencias de usuarios</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-dark-800/50 rounded-lg p-4">
+              <p class="text-xs text-neutral-500 mb-2">Como funciona RAG (Retrieval Augmented Generation):</p>
+              <div class="flex flex-wrap items-center gap-2 text-xs">
+                <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded">Pergunta</span>
+                <span class="text-neutral-500">→</span>
+                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded">Gera Embedding</span>
+                <span class="text-neutral-500">→</span>
+                <span class="bg-purple-500/20 text-purple-400 px-3 py-1 rounded">Busca Similar</span>
+                <span class="text-neutral-500">→</span>
+                <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded">Injeta no Contexto</span>
+                <span class="text-neutral-500">→</span>
+                <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded">Resposta</span>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quando Usar Cada Tipo -->
+    <section class="mb-12">
+      <div class="bg-dark-800 rounded-2xl p-8 border border-dark-600">
+        <div class="flex items-center mb-6">
+          <span class="text-4xl mr-4">🎯</span>
+          <div>
+            <h2 class="text-2xl font-bold text-neutral-100">Quando Usar Cada Tipo de Memoria</h2>
+            <p class="text-neutral-400">Guia de decisao</p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-dark-600">
+                <th class="text-left py-3 px-4 text-purple-400">Cenario</th>
+                <th class="text-left py-3 px-4 text-blue-400">Curto Prazo</th>
+                <th class="text-left py-3 px-4 text-emerald-400">Longo Prazo</th>
+              </tr>
+            </thead>
+            <tbody class="text-neutral-300">
+              <tr class="border-b border-dark-700">
+                <td class="py-3 px-4">Conversa de 5-10 mensagens</td>
+                <td class="py-3 px-4 text-center">✓</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+              </tr>
+              <tr class="border-b border-dark-700">
+                <td class="py-3 px-4">Sessao longa (100+ mensagens)</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+                <td class="py-3 px-4 text-center">✓</td>
+              </tr>
+              <tr class="border-b border-dark-700">
+                <td class="py-3 px-4">Lembrar entre dias/semanas</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+                <td class="py-3 px-4 text-center">✓</td>
+              </tr>
+              <tr class="border-b border-dark-700">
+                <td class="py-3 px-4">Base de conhecimento grande</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+                <td class="py-3 px-4 text-center">✓</td>
+              </tr>
+              <tr class="border-b border-dark-700">
+                <td class="py-3 px-4">Tarefa rapida e simples</td>
+                <td class="py-3 px-4 text-center">✓</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4">Busca semantica em docs</td>
+                <td class="py-3 px-4 text-center text-neutral-600">-</td>
+                <td class="py-3 px-4 text-center">✓</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-6 bg-dark-700/50 rounded-xl p-6">
+          <p class="text-neutral-200 font-semibold mb-3">Regra geral:</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start">
+              <span class="text-blue-400 mr-2">•</span>
+              <span><strong class="text-blue-400">Curto prazo:</strong> Use para tudo que cabe confortavelmente no context window</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-400 mr-2">•</span>
+              <span><strong class="text-emerald-400">Longo prazo:</strong> Use quando precisa persistir ou buscar em grande volume</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-400 mr-2">•</span>
+              <span><strong class="text-purple-400">Hibrido:</strong> Combine ambos - longo prazo para storage, curto prazo para contexto ativo</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -239,53 +654,48 @@
     <!-- Resumo -->
     <section class="mb-12">
       <div class="bg-primary/10 rounded-2xl p-8 border border-primary/30">
-        <h2 class="text-2xl font-bold text-primary mb-6 text-center">📋 Resumo do Modulo</h2>
+        <h2 class="text-2xl font-bold gradient-text mb-6 text-center">Resumo do Modulo</h2>
 
         <div class="space-y-4 mb-8">
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
-            <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">O excesso de engenharia e o erro mais comum na implementacao de IA</span>
+            <span class="text-purple-400 mr-3 text-xl">✓</span>
+            <span class="text-neutral-200">Ferramentas sao as acoes concretas que agents realizam</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
-            <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">Antes de construir, faca as 3 perguntas essenciais</span>
+            <span class="text-purple-400 mr-3 text-xl">✓</span>
+            <span class="text-neutral-200">4 categorias: Leitura, Escrita, Processamento, Integracao</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
-            <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">50% dos problemas podem ser resolvidos SEM IA</span>
+            <span class="text-purple-400 mr-3 text-xl">✓</span>
+            <span class="text-neutral-200">Nome claro + descricao detalhada = agent usa ferramenta corretamente</span>
           </div>
           <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
-            <span class="text-emerald-400 mr-3 text-xl">✓</span>
-            <span class="text-neutral-200">Comece simples e escale com o tempo</span>
+            <span class="text-purple-400 mr-3 text-xl">✓</span>
+            <span class="text-neutral-200">Memoria de curto prazo = contexto atual (automatico)</span>
+          </div>
+          <div class="flex items-center bg-dark-800/50 p-4 rounded-lg">
+            <span class="text-purple-400 mr-3 text-xl">✓</span>
+            <span class="text-neutral-200">Memoria de longo prazo = RAG com vector stores (precisa implementar)</span>
           </div>
         </div>
 
         <div class="bg-dark-800 rounded-xl p-6 text-center">
-          <p class="text-2xl font-bold gradient-text mb-2">Principio-chave</p>
-          <p class="text-xl text-neutral-200">"Seja um resolvedor de problemas, nao um construtor de AI Agents."</p>
-        </div>
-
-        <div class="text-center mt-8">
-          <a href="index.html" class="inline-flex items-center space-x-2 px-6 py-3 bg-primary text-dark-900 rounded-lg font-bold hover:bg-primary/90 transition-colors">
-            <span>Voltar para a Trilha</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <p class="text-2xl font-bold gradient-text mb-2">Proximo Passo</p>
+          <p class="text-xl text-neutral-200">Descubra como orquestrar multiplos agents trabalhando juntos!</p>
         </div>
       </div>
     </section>
 
     <!-- Navegacao -->
     <div class="flex justify-between items-center pt-8 border-t border-dark-700">
-      <a href="index.html" class="flex items-center text-neutral-400 hover:text-primary transition-colors">
+      <a href="modulo-3-2.html" class="flex items-center text-neutral-400 hover:text-primary transition-colors">
         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
-        Voltar para Trilha
+        Anterior: Arquitetura
       </a>
-      <a href="modulo-1-2.html" class="flex items-center px-6 py-3 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition-colors">
-        Proximo: A Piramide
+      <a href="modulo-3-4.html" class="flex items-center px-6 py-3 bg-purple-500 text-white rounded-lg font-semibold hover:bg-purple-600 transition-colors">
+        Proximo: Multi-Agents
         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
@@ -296,7 +706,7 @@
   <!-- Footer -->
   <footer class="bg-dark-900 border-t border-dark-700 py-8">
     <div class="max-w-4xl mx-auto px-4 text-center">
-      <p class="text-neutral-500 text-sm">Automacao 2026 - Modulo 1.1: A Filosofia do Resolvedor</p>
+      <p class="text-neutral-500 text-sm">Automacao 2026 - Modulo 3.3: Ferramentas e Memoria</p>
     </div>
   </footer>
 
